@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGoFiveBit.Tests", "LetsGoFiveBit.Tests\LetsGoFiveBit.Tests.csproj", "{07CD9D35-4944-41A8-84F1-0E24F1F617FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGoFiveBit", "LetsGoFiveBit\LetsGoFiveBit.csproj", "{2F47B27D-92A3-48CB-92AE-55A1824FCCE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGoFiveBitCalculator", "LetsGoFiveBitCalculator\LetsGoFiveBitCalculator.csproj", "{08BAEAF3-5250-4957-B59C-835A5113AED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDDE6DA0-588E-43FC-91F5-B74F19CD6595}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07CD9D35-4944-41A8-84F1-0E24F1F617FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CD9D35-4944-41A8-84F1-0E24F1F617FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CD9D35-4944-41A8-84F1-0E24F1F617FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CD9D35-4944-41A8-84F1-0E24F1F617FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F47B27D-92A3-48CB-92AE-55A1824FCCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F47B27D-92A3-48CB-92AE-55A1824FCCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F47B27D-92A3-48CB-92AE-55A1824FCCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F47B27D-92A3-48CB-92AE-55A1824FCCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BAEAF3-5250-4957-B59C-835A5113AED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BAEAF3-5250-4957-B59C-835A5113AED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BAEAF3-5250-4957-B59C-835A5113AED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BAEAF3-5250-4957-B59C-835A5113AED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09296CF6-5EB6-448B-B83A-4F06FC02D84C}
+	EndGlobalSection
+EndGlobal

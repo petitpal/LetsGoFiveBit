@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = "~/_LayoutPage.cshtml";
+
+}
+
+@section PageScripts {
+    <script src="~/Scripts/CalcView.js"></script>
+}
+
+<style>
+    #operations button {
+        margin: 5px;
+    }
+</style>
+
+<h1>Let's Go Five Bit</h1>
+
+<div>
+    <span>First number: </span>
+    <input id="first_number" type="text" maxlength="15" />
+    <select id="first_base" onchange="SetCharLimits('#first_number', $(this))"></select>
+</div>
+<div>
+    <span>Second number: </span>
+    <input id="second_number" type="text" maxlength="15" />
+    <select id="second_base" onchange="SetCharLimits('#second_number', $(this))"></select>
+</div>
+
+<div id="operations">
+    <button id="add" onclick="Calculate('+')">
+        +
+    </button>
+    <button id="subtract" onclick="Calculate('-')">
+        -
+    </button>
+    <button id="divide" onclick="Calculate('/')">
+        /
+    </button>
+    <button id="multiply" onclick="Calculate('*')">
+        *
+    </button>
+</div>
+
+<div>
+    <span>Result (in first number's base): </span>
+    <input id="result" type="text" />
+</div>
